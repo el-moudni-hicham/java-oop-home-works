@@ -1,1 +1,1 @@
-# Medical-Office-Management-JAVAFX-MySql
+# Medical office management with javafx and mysql
