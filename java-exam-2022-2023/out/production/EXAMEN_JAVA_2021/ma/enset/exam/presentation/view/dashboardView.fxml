@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="450.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ma.enset.exam.presentation.controllers.MainController">
+   <left>
+      <AnchorPane prefHeight="401.0" prefWidth="171.0" style="-fx-background-color: gray;" BorderPane.alignment="CENTER">
+         <children>
+            <Button alignment="BASELINE_LEFT" layoutX="7.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#medecins" prefHeight="43.0" prefWidth="130.0" style="-fx-background-color: transparent;" text="MEDECINS" />
+            <Button alignment="BASELINE_LEFT" layoutX="7.0" layoutY="57.0" mnemonicParsing="false" onMouseClicked="#patients" prefHeight="43.0" prefWidth="130.0" style="-fx-background-color: transparent;" text="PATIENTS" />
+            <Button alignment="BASELINE_LEFT" layoutX="7.0" layoutY="100.0" mnemonicParsing="false" onMouseClicked="#consultations" prefHeight="43.0" prefWidth="137.0" style="-fx-background-color: transparent;" text="CONSULTATIONS" />
+         </children>
+      </AnchorPane>
+   </left>
+   <top>
+      <Pane prefHeight="66.0" prefWidth="712.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="BASELINE_LEFT" layoutX="14.0" layoutY="22.0" prefHeight="23.0" prefWidth="131.0" text="CABINET MEDICAL" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Barlow Condensed ExtraBold" size="18.0" />
+               </font></Label>
+         </children>
+      </Pane>
+   </top>
+   <center>
+
+   </center>
+   <center>
+      <BorderPane fx:id="root" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="20.0" top="20.0" />
+         </BorderPane.margin>
+      </BorderPane>
+   </center>
+</BorderPane>
